@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.proxy.tuntun.eu.org", custom_domain = true },
-  { pattern = "quey.proxy.tuntun.eu.org", custom_domain = true },
-  { pattern = "gcr.proxy.tuntun.eu.org", custom_domain = true },
-  { pattern = "k8s-gcr.proxy.tuntun.eu.org", custom_domain = true },
-  { pattern = "k8s.proxy.tuntun.eu.org", custom_domain = true },
-  { pattern = "ghcr.proxy.tuntun.eu.org", custom_domain = true },
-  { pattern = "cloudsmith.proxy.tuntun.eu.org", custom_domain = true },
+  { pattern = "docker.tuntun.eu.org", custom_domain = true },
+  { pattern = "quey.tuntun.eu.org", custom_domain = true },
+  { pattern = "gcr.tuntun.eu.org", custom_domain = true },
+  { pattern = "k8s-gcr.tuntun.eu.org", custom_domain = true },
+  { pattern = "k8s.tuntun.eu.org", custom_domain = true },
+  { pattern = "ghcr.tuntun.eu.org", custom_domain = true },
+  { pattern = "cloudsmith.tuntun.eu.org", custom_domain = true },
 ]
 
 [env.production.vars]
