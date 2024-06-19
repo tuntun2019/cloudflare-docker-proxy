@@ -7,13 +7,13 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.proxy.tuntun.eu.org": dockerHub,
-  "quay.proxy.tuntun.eu.org": "https://quay.io",
-  "gcr.proxy.tuntun.eu.org": "https://gcr.io",
-  "k8s-gcr.proxy.tuntun.eu.org": "https://k8s.gcr.io",
-  "k8s.proxy.tuntun.eu.org": "https://registry.k8s.io",
-  "ghcr.proxy.tuntun.eu.org": "https://ghcr.io",
-  "cloudsmith.proxy.tuntun.eu.org": "https://docker.cloudsmith.io",
+  "docker.tuntun.eu.org": dockerHub,
+  "quay.tuntun.eu.org": "https://quay.io",
+  "gcr.tuntun.eu.org": "https://gcr.io",
+  "k8s-gcr.tuntun.eu.org": "https://k8s.gcr.io",
+  "k8s.tuntun.eu.org": "https://registry.k8s.io",
+  "ghcr.tuntun.eu.org": "https://ghcr.io",
+  "cloudsmith.tuntun.eu.org": "https://docker.cloudsmith.io",
 
   // staging
   "docker-staging.libcuda.so": dockerHub,
