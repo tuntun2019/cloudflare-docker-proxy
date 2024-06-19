@@ -19,6 +19,18 @@ const routes = {
   "docker-staging.libcuda.so": dockerHub,
 };
 
+import DOCS from './help.html'
+ 
+// return docs
+if (url.pathname === "/") {
+  return new Response(DOCS, {
+    status: 200,
+    headers: {
+      "content-type": "text/html"
+    }
+  });
+}
+
 function routeByHosts(host) {
   if (host in routes) {
     return routes[host];
